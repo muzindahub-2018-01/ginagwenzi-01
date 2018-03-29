@@ -1,0 +1,228 @@
+body, html {
+    color: #878787;
+    height: 100%;
+    margin: 0;
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif,
+}
+
+img{
+    
+}
+
+h1{
+    font-size: 90px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h2{
+
+    font-size: 53px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+h3{
+
+    font-size: 20px;
+    color: #48525c;
+}
+
+a:link {
+    color: orange;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:active {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+
+.bg {
+    background-color: #ffa949;
+}
+
+.primary-content,
+.bg,
+.main-footer {
+
+    text-align: center;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("banner1.jpg");
+
+    /* Full height */
+    height: 80%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.callout {
+    font-size: 1.25em;
+    border-bottom: 3px solid;
+    padding: 0 9px 3px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+.remarks {
+    margin-top: 40px;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    background-color: #434a52;
+    paint-order: 18% 24%;
+    border-top: 10px solid #ffa949;
+
+}
+
+
+
+.pic-remarks{
+
+    margin-top: 20px;
+    width: 25%;
+    float: left;
+    position: relative;
+
+}
+
+.word-remarks{
+    width: 50%;
+    float: right;
+    position: relative;
+
+}
+
+
+.word-remarks h2{
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.remark {
+        border-radius: 50%;
+
+}
+
+
+.t-border {
+
+    border-top: 2px solid #dfe2e6;
+}
+
+
+.primary-content,
+.secondary-content {
+
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 960px;
+}
+
+.secondary-content {
+
+    padding-top: 80px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #dfe236;
+    overflow: auto;
+}
+
+.group:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.farms,
+.products {
+
+    width: 46.5%;
+}
+
+.farms {
+    float: left;
+}
+
+.products {
+    float: right;
+}
+
+
+.inlinelist{
+overflow: hidden;
+display: inline-flex;
+flex-direction: row;
+text-align: center;
+justify-content: flex-start;
+
+list-style: none;
+padding: 0;
+
+white-space: nowrap;
+
+}
+
+.inlinelist img {
+        display: block;
+    position: relative;
+    margin:auto;
+    width: 75%;
+
+
+}
+
+.gallery{
+    text-align: center;
+    margin-top: 20px;
+    color: orange;
+
+    background-color: #899;
+    bottom: 35px;
+    left: 35px;
+    padding: 3em 1em;
+
+    right: 35px;
+    top: 35px;
+
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    z-index: 9;
+
+}
+
+.footer{
+    margin:40px;
+ border-top: 2px solid #dfe236;
+ text-align: center;
+
+}
+
+.Designed{
+    padding-left: 60px;
+    color: lightblue;
+}
+
+
+
